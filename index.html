@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+
+    <!-- Mobile Specific Metas -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="keywords"
+        content="programmer, coding, console, cv, java, haskell, OpenGL, c, c++, games developer, software developer, english, israeli, hebrew" />
+    <meta name="description" content="Games and software developer interested in c++ engine development." />
+
+    <title>Huynh Nguyen's Portfolio</title>
+
+
+    <!-- External file links for this html page  -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="styles/landing.css">
+    <link rel="stylesheet" type="text/css" href="styles/career.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Project related css files -->
+    <link rel="stylesheet" type="text/css" href="./styles/project_styles/delivery_driver.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/project_styles/quiz_master.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/project_styles/defense_the_realm.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/project_styles/mini_shoot.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/project_styles/genshin.css" />
+
+    <!-- Icon -->
+    <link rel="icon" type="image/png" href="./data/images/icon-trans.png">
+
+    <!-- Scripts -->
+    <script src="scripts/quick_links.js"></script>
+
+    <!-- Add google analytics data -->
+
+</head>
+
+<!-- Add a custom container class implementation here.... -->
+
+<body id="top">
+    <div class="container" style="margin-top: 1%" align="center">
+        <div id="title">Huynh Nguyen</div>
+        <img class="landing_logo" src="./data 1/images/Portrait.jpg" alt="Portrait">
+        <div id="quick_links">
+            <a href="mailto:nhuthuynhnguyenhuy2903@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+            <a href="https://github.com/nhuthuynh2000" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/nhn-huynh2903/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/aries29032000/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+        <hr>
+        <div id="change_language">
+            <a href=""><img src="./Data/images/japan.png" alt=""></a>
+            <a href=""><img src="./Data/images/united-states-of-america.png" alt=""></a>
+        </div>
+        <div id="about_me">
+            Chào mọi người, tôi là Huỳnh Nguyễn. Tôi là một nhà phát triển web, 
+            ứng dụng và trò chơi điện tử. Tôi có đam mê mãnh liệt với  công nghệ máy tính. 
+            Tôi luôn nỗ lực nâng cao kỹ năng của mình và học hỏi ở nhiều 
+            lĩnh vực khác nhau để thỏa mãn niềm khao khát khám phá mọi thứ 
+            liên quan đến máy tính. Đồng thời, tôi tạo ra những trang web, 
+            ứng dụng và trò chơi phục vụ cho cộng đồng.
+            <br>
+        </div>
+        <hr>
+
+        <section class="buttons">
+            <div class="button_container">
+                <div id="projects-Button" class="btn btn-5 kd-button"
+                    onClick="document.getElementById('project_data_area').style.opacity = 0;">Dự án</div>
+                <div id="career-Button" class="btn btn-5 kd-button"
+                    onClick="document.getElementById('project_data_area').style.opacity = 0;">Sự nghiệp</div>
+                <div id="skills-Button" class="btn btn-5 kd-button"
+                    onClick="document.getElementById('project_data_area').style.opacity = 0;">Kỹ năng</div>
+                <!-- <div id="research-Button" class="btn btn-5 kd-button"
+                    onClick="document.getElementById('project_data_area').style.opacity = 0;">Research</div> -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts used in top body -->
+    <script src="scripts/text_animation.js"></script>
+</body>
+
+<div id="bottom">
+    <!-- Data_Labels -->
+    <div id="data_selection_area" class="container kd-selection-content" style="opacity: 0;"></div>
+    <div id="project_data_area" class="container kd-selection-content" style="opacity: 0;"></div>
+    <script src="scripts/button_nav_selection.js"></script>
+    <script src="scripts/button_nav_proj.js"></script>
+    <script src="scripts/button_nav_career.js"></script>
+
+</div>
+
+</html>
